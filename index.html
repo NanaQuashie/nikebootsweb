@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Nike Boots</title>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="img/Nike-Logo.png" class="logo" height="50">
+            <nav>
+                <ul id="menuList">
+                    <li><a href="">Mercurial Superfly</a></li>
+                    <li><a href="">Mercurial Vapor</a></li>
+                    <li><a href="">Phantom GT Pro</a></li>
+                    <li><a href="">Others</a></li>
+                </ul>
+            </nav>
+            <img src="img/menuicon.png.crdownload" class="menu-icon" height="60" onclick="togglemenu()">
+
+        </div>
+
+        <div class="row">
+            <div class="col-1">
+                <h2>Nike Mercurial <br>Superfly Elite DF</h2>
+                <h3>FG Football Boots</h3>
+                <p>These Nike Mercurial Superfly Elite DF FG Football Boots <br>have been engineered with a 360-degree construction 
+                    which fits like a second-skin and wraps your foot, whilst the Dynamic 
+                    Fit collar provides a sock-like sensation and helps lock your foot in 
+                    place for a secure fit with zero distraction. 
+                   
+                <h4>GHC2.00</h4>
+                <button type="button">Buy Now!<img src="img/arrow2.png" height="20"></button>     
+
+            </div>
+            <div class="col-2"></div>
+                <img src="img/mercurial.jpg" class="boots">
+                <div class="color-box"></div>
+                <div class="add-btn">
+                    <img src="img/add-icon.png" height="50">
+                    <p><small>Add to Cart</small></p>
+
+                </div>
+
+                
+        </div>
+
+        <div class="social-links">
+            <img src="img/facebook-logo.jpg" height="40">
+            <img src="img/instagram-logo.jpg" height="40">
+            <img src="img/twitter-logo.png.crdownload" height="40">
+        </div>
+    </div>
+    
+    <script>
+
+        var menuList = document.getElementById("menuList");
+
+        menuList.style.maxHeight = "0px";
+
+        function togglemenu(){
+
+            if(menuList.style.maxHeight == "0px")
+                {
+                    menuList.style.maxHeight = "130px";
+                }
+
+            else
+                {
+                    menuList.style.maxHeight = "0px";
+                }
+        }
+
+
+
+    </script>
+</body>
+</html>
